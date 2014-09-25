@@ -1,0 +1,121 @@
+Hormone	Name of hormone	Source (for now, = released from)	Function	Target
+oxytocin	--	posterior pituitary	stimulates labor contractions, stimulates milk ejection, promotes pair bonding	myoepithelial cells of mammary gland, myometrium of uterus, endometrium of uterus, amygdala, ventromedial hypothalamus, septum, nucleus accumbens, brainstem
+ADH	anti-diuretic hormone	posterior pituitary	promotes water retention and uptake	kidney tubules
+TSH	thyroid-stimulating hormone	anterior pituitary	promotes production of thyroid hormones T3 and T4	thyroid
+ACTH	adrenocorticotropic hormone	anterior pituitary	regulates cortisol, sugars, involved in stress reaction	adrenal cortex
+GH	growth hormone	anterior pituitary	stimulates growth	muscle, bone, viscera
+PRL	prolactin	anterior pituitary	stimulates milk secretion	mammary glands
+FSH	follicle-stimulating hormone	anterior pituitary	stimulates ovarian follicles to break open, release ova	ovarian follicles
+LH	luteinizing hormone	anterior pituitary	triggers ovulation, development of corpus luteum, stimulates Leydig cells' production of testosterone	ovary, testis
+				
+Endocrinology triples				
+oxytocin				
+	oxytocin	has-source	posterior pituitary	
+	posterior pituitary	source-of	oxytocin	
+	oxytocin	stimulates	labor contractions	
+	labor contractions	stimulated-by	oxytocin	
+	oxytocin	stimulates	milk ejection	
+	milk ejection	stimulated-by	oxytocin	
+	oxytocin	promotes	pair bonding	
+	pair bonding	promoted-by	oxytocin	
+	oxytocin	has-target	myoepithelial cells of mammary gland	
+	myoepithelial cells of mammary gland	target-of	oxytocin	
+	oxytocin	has-target	myometrium of uterus	
+	myometrium of uterus	target-of	oxytocin	
+	oxytocin	has-target	endometrium of uterus	
+	endometrium of uterus	target-of	oxytocin	
+	oxytocin	has-target	amygdala	
+	amygdala	target-of	oxytocin	
+	oxytocin	has-target	ventromedial hypothalamus	
+	ventromedial hypothalamus	target-of	oxytocin	
+	oxytocin	has-target	septum	
+	septum	target-of	oxytocin	
+	oxytocin	has-target	nucleus accumbens	
+	nucleus accumbens	target-of	oxytocin	
+	oxytocin	has-target	brainstem	
+	brainstem	target-of	oxytocin	
+ADH				
+	ADH	abbreviation-of	anti-diuretic hormone	
+	anti-diuretic hormone	has-abbreviation	ADH	
+	anti-diuretic hormone	has-source	posterior pituitary	
+	posterior pituitary	source-of	anti-diuretic hormone	
+	anti-diuretic hormone	promotes	water retention	
+	water retention	promoted-by	anti-diuretic hormone	
+	anti-diuretic hormone	promotes	water uptake	
+	water uptake	promoted-by	anti-diuretic hormone	
+	anti-diuretic hormone	has-target	kidney tubules	
+	kidney tubules	target-of	anti-diuretic hormone	
+TSH				
+	TSH	abbreviation-of	thyroid-stimulating hormone	
+	thyroid-stimulating hormone	has-abbreviation	TSH	
+	thyroid-stimulating hormone	has-source	anterior pituitary	
+	anterior pituitary	source-of	thyroid-stimulating hormone	
+	thyroid-stimulating hormone	promotes production of	thyroid hormone T3	
+	thyroid hormone T3	production promoted by	thyroid-stimulating hormone	
+	thyroid-stimulating hormone	promotes production of	thyroid hormone T4	
+	thyroid hormone T4	production promoted by	thyroid-stimulating hormone	
+	thyroid-stimulating hormone	has-target	thyroid	
+	thyroid	target-of	thyroid-stimulating hormone	
+ACTH				
+	ACTH	abbreviation-of	adrenocorticotropic hormone	
+	adrenocorticotropic hormone	has-abbreviation	ACTH	
+	adrenocorticotropic hormone	has-source	anterior pituitary	
+	anterior pituitary	source-of	adrenocorticotropic hormone	
+	adrenocorticotropic hormone	regulates	cortisol	
+	cortisol	regulated-by	adrenocorticotropic hormone	
+	adrenocorticotropic hormone	regulates sugars		
+	sugars	regulated-by	adrenocorticotropic hormone	
+	adrenocorticotropic hormone	involved in	stress reaction	
+	stress reaction	involves	adrenocorticotropic hormone	
+	adrenocorticotropic hormone	has-target	adrenal cortex	
+	adrenal cortex	target-of	adrenocorticotropic hormone	
+GH				
+	GH	abbreviation-of	growth hormone	
+	growth hormone	has-abbreviation	GH	
+	somatotropin	synonym-of	growth hormone	
+	growth hormone	synonym-of	somatotropin	
+	STH	abbreviation-of	somatotropin	
+	somatotropin	has-abbreviation	STH	
+	growth hormone	has-source	anterior pituitary	
+	anterior pituitary	source-of	growth hormone	
+	growth hormone	stimulates	growth	
+	growth	stimulated-by	growth hormone	
+	growth hormone	has-target	muscle	
+	growth hormone 	has-target	bone	
+	growth hormone 	has-target	viscera	
+	muscle	target-of	growth hormone	
+	bone	target-of	growth hormone	
+	viscera	target-of	growth hormone	
+PRL				
+	PRL	abbreviation-of	prolactin	
+	prolactin	has-abbreviation	PRL	
+	prolactin	has-source	anterior pituitary	
+	anterior pituitary	source-of	prolactin	
+	prolactin	stimulates	milk secretion	
+	milk secretion	stimulated-by	prolactin	
+	prolactin	has-target	mammary glands	
+	mammary glands	target-of	prolactin	
+FSH				
+	FSH	abbreviation-of	follicle-stimulating hormone	
+	follicle-stimulating hormone	has-abbreviation	FSH	
+	follicle-stimulating hormone	has-source	anterior pituitary	
+	anterior pituitary	source-of	follicle-stimulating hormone	
+	follicle-stimulating hormone	stimulates	ovarian follicles to break open and releasing ova	
+	ovarian follicles’ breaking open and releasing ova	stimulated-by	follicle-stimulating hormone	
+	follicle-stimulating hormone	has-target	ovarian follicles	
+	ovarian follicles	target-of	follicle-stimulating hormone	
+LH				
+	LH	abbreviation-of	luteinizing hormone	
+	luteinizing hormone	has-abbreviation	LH	
+	luteinizing hormone	has-source	anterior pituitary	
+	anterior pituitary	source-of	luteinizing hormone	
+	luteinizing hormone	triggers	ovulation	
+	ovulation	triggered-by	luteinizing hormone	
+	luteinizing hormone	triggers	development of corpus luteum	
+	development of corpus luteum	triggered-by	luteinizing hormone	
+	luteinizing hormone	stimulates	Leydig cells' production of testosterone	
+	Leydig cells' production of testosterone	stimulated-by	luteinizing hormone	
+	luteinizing hormone	has-target	ovary	
+	ovary	target-of	luteinizing hormone	
+	luteinizing hormone	has-target	testis	
+	testis	target-of	luteinizing hormone	
